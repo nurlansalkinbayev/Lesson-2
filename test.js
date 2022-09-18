@@ -1,3 +1,4 @@
+'use strict';
 // console.log('Hello world');
 // for (let ex = 1; ex < 5; ex++) {
 //   console.log(`----- Starting ex ${ex}. `);
@@ -10,51 +11,67 @@
 // console.log(y, k, p);
 // const myName = 'Salkinbayev';
 // Задачи на циклы
-for (let i = 5; i < 11; i++) {
-  console.log(i);
-};
-for (let i = 20; i >= 10; i--) {
-  if (i === 13) {
-    break;
-  }
+// for (let i = 5; i < 11; i++) {
+//   console.log(i);
+// };
+// for (let i = 20; i >= 10; i--) {
+//   if (i === 13) {
+//     break;
+//   }
 
-  console.log(i);
-};
+//   console.log(i);
+// };
 
-const arrayOfNumbers = [];
+// const arrayOfNumbers = [];
 
-for (let i = 5; i < 11; i++) {
-  arrayOfNumbers[i - 5] = i;
-}
+// for (let i = 5; i < 11; i++) {
+//   arrayOfNumbers[i - 5] = i;
+// }
 
-numbers = [];
-for (let i = 2; i < 10; i++) {
-  if (i % 2 === 0) {
+// numbers = [];
+// for (let i = 2; i < 10; i++) {
+//   if (i % 2 === 0) {
 
-    numbers[i - 2] = i;
-  }
-
-
-}
-console.log(numbers);
-
-const arr = [1, 2, 3, 4];
-const result = [];
-
-for (let i = 0; i < arr.length; i++) {
-
-  result[i] = i * 2;
+//     numbers[i - 2] = i;
+//   }
 
 
-}
-console.log(result);
-// Задачи на функции
-function sayHello(name) {
-  return (`Привет ${name}`);
-}
-console.log(sayHello('Nora'));
+// }
+// console.log(numbers);
 
-function returnNeighboringNumbers(num) {
-  return [num - 1, num, num + 1];
-}
-console.log(returnNeighboringNumbers(8));
+// const arr = [1, 2, 3, 4];
+// const result = [];
+
+// for (let i = 0; i < arr.length; i++) {
+
+//   result[i] = i * 2;
+
+
+// }
+// console.log(result);
+// // Задачи на функции
+// function sayHello(name) {
+//   return (`Привет ${name}`);
+// }
+// console.log(sayHello('Nora'));
+
+// function returnNeighboringNumbers(num) {
+//   return [num - 1, num, num + 1];
+// }
+// console.log(returnNeighboringNumbers(8));
+// --------
+// 33.Работа с массивами,псевдомассивами.
+
+const arr = [1, 2, 3, 6, 9];
+// arr.pop();
+// arr.push(78);
+// console.log(arr);
+// // for (let i = 0; i < arr.length; i++) {
+// //   console.log(arr[i]);
+// // }
+// for (let k of arr) {
+//   console.log(k);
+// }
+// arr.forEach(function (item, i, arr) {
+//   console.log(` ${item} внутри массива ${arr}`);
+// });
